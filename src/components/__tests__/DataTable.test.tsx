@@ -5,9 +5,9 @@ import DataTable, { type Column } from '../DataTable'
 
 type Row = { id: number; name: string; age: number }
 const data: Row[] = [
-  { id: 1, name: 'Charlie', age: 22 },
-  { id: 2, name: 'Alice', age: 28 },
-  { id: 3, name: 'Bob', age: 35 },
+  { id: 1, name: 'Ashish', age: 20 },
+  { id: 2, name: 'Ayush', age: 21 },
+  { id: 3, name: 'Pratik', age: 22 },
 ]
 
 const columns: Column<Row>[] = [

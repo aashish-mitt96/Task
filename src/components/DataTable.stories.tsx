@@ -4,9 +4,9 @@ import DataTable, { type DataTableProps } from './DataTable'
 type User = { id: number; name: string; email: string; age: number }
 
 const data: User[] = [
-  { id: 1, name: 'Alice Johnson', email: 'alice@example.com', age: 28 },
-  { id: 2, name: 'Bob Smith', email: 'bob@example.com', age: 35 },
-  { id: 3, name: 'Charlie Green', email: 'charlie@example.com', age: 22 },
+  { id: 1, name: 'Ashish Mittal', email: 'ashish@gmail.com', age: 20 },
+  { id: 2, name: 'Ayush Singh', email: 'ayush@gmail.com', age: 21 },
+  { id: 3, name: 'Pratik Panda', email: 'pratik@gmail.com', age: 22 },
 ]
 
 const columns = [
