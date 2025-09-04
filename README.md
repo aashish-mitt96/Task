@@ -13,6 +13,11 @@ The components are fully typed, styled, and documented with Storybook for easy e
 
 ---
 
+## Preview
+
+![Preview](./src/assets/ezgif.com-animated-gif-maker.gif)
+
+
 
 ## Components
 
