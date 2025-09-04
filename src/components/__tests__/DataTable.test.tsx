@@ -19,9 +19,9 @@ const columns: Column<Row>[] = [
 describe('DataTable', () => {
   it('renders rows', () => {
     render(<DataTable data={data} columns={columns} />)
-    expect(screen.getByText('Charlie')).toBeInTheDocument()
-    expect(screen.getByText('Alice')).toBeInTheDocument()
-    expect(screen.getByText('Bob')).toBeInTheDocument()
+    expect(screen.getByText('Pratik')).toBeInTheDocument()
+    expect(screen.getByText('Ashish')).toBeInTheDocument()
+    expect(screen.getByText('Ayush')).toBeInTheDocument()
   })
 
   it('sorts by column', () => {
@@ -29,11 +29,11 @@ describe('DataTable', () => {
     const nameHeader = screen.getByText('Name')
     fireEvent.click(nameHeader) 
     const rows = screen.getAllByRole('row').slice(1)
-    const firstRow = within(rows[0]).getByText('Alice')
+    const firstRow = within(rows[0]).getByText('Ashish')
     expect(firstRow).toBeInTheDocument()
     fireEvent.click(nameHeader) 
     const rows2 = screen.getAllByRole('row').slice(1)
-    const firstRow2 = within(rows2[0]).getByText('Charlie')
+    const firstRow2 = within(rows2[0]).getByText('Pratk')
     expect(firstRow2).toBeInTheDocument()
   })
 
